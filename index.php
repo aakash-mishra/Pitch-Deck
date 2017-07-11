@@ -94,7 +94,7 @@ if( isset( $_POST['submit'] ) ){
                       Need support?<br> Call us on: +917073973939
                     </li>
                     <li class="page-scroll">
-                        <a href="./pricing.html">Pricing</a>
+                        <a href="./pricing.php">Pricing</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
