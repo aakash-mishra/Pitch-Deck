@@ -6,7 +6,9 @@ if( isset($_POST['logout']) ){
 }
 
 if(isset($_SESSION["loggedin"])){
-  $con = mysqli_connect("localhost", "root", "" , "PitchDeck");
+  // $con = mysqli_connect("localhost", "root", "" , "PitchDeck");
+  $con = mysqli_connect("wp-4thwheel.cc5ugz0t5ghl.us-west-2.rds.amazonaws.com", "admin", "Qwer!234" , "PitchDeck");
+
   $query = "Select * from Users";
   $result = mysqli_query($con, $query);
   $num = mysqli_num_rows($result);
@@ -17,7 +19,7 @@ if(isset($_SESSION["loggedin"])){
   }
 }
 else{
-  header("Location: http://localhost/pitch-deck/login.php");
+  header("Location: http://wwww.3mindsdigital.com/pitchdeck/login.php");
 }
 
 

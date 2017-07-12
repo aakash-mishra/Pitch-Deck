@@ -1,6 +1,7 @@
 <?php
 // echo "here";
-$con = mysqli_connect("localhost", "root", "" , "PitchDeck");
+$con = mysqli_connect("wp-4thwheel.cc5ugz0t5ghl.us-west-2.rds.amazonaws.com", "admin", "Qwer!234" , "PitchDeck");
+// $con = mysqli_connect("localhost", "root", "" , "PitchDeck");
 
 $hostname = $_SERVER['HTTP_HOST'];
 $uri = $_SERVER['REQUEST_URI'];

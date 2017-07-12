@@ -1,6 +1,8 @@
 <?php
 session_start();
-$con = mysqli_connect("localhost","root","","PitchDeck");
+// $con = mysqli_connect("localhost","root","","PitchDeck");
+$con = mysqli_connect("wp-4thwheel.cc5ugz0t5ghl.us-west-2.rds.amazonaws.com", "admin", "Qwer!234" , "PitchDeck");
+
 function mysqli_result($res, $row, $field=0) {
     $res->data_seek($row);
     $datarow = $res->fetch_array();
@@ -31,7 +33,7 @@ if(isset($_POST['submit'])){
     $date = date('y/m/d h:i:s', time());
     $sql = "Insert into Logs VALUES('', '$date' , $adminid)";
     $result = mysqli_query($con,$sql);
-    header("Location: http://localhost/pitch-deck/admin.php");
+    header("Location: http://wwww.3mindsdigital.com/pitchdeck/admin.php");
   }
   else{
     $_SESSION["loggedin"] = "no";
@@ -40,7 +42,7 @@ if(isset($_POST['submit'])){
 ?>
 <html>
 <head>
-  <link href="http://localhost/pitch-deck/css/login.css" rel="stylesheet" type="text/css">
+  <link href="css/login.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
