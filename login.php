@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
     $date = date('y/m/d h:i:s', time());
     $sql = "Insert into Logs VALUES('', '$date' , $adminid)";
     $result = mysqli_query($con,$sql);
-    header("Location: http://wwww.3mindsdigital.com/pitchdeck/admin.php");
+    header("Location: http://www.3mindsdigital.com/pitchdeck/admin.php");
   }
   else{
     $_SESSION["loggedin"] = "no";
