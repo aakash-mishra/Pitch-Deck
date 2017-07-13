@@ -80,6 +80,7 @@ tr:nth-child(even) {
         <tr>
         <th>Company/First Name</th>
         <th>E-mail</th>
+        <th>Message</th>
         <th>PPT</th>
         </tr>
   <?php
@@ -87,6 +88,7 @@ $i=0;
 while($i<$num){
   $name = mysqli_result($result,$i,"Name");
   $email = mysqli_result($result,$i,"Email");
+  $msg = mysqli_result($result,$i,"Message");
   $ppt = mysqli_result($result,$i,"PPT");
   $pptname = explode('/',$ppt);
 
@@ -94,6 +96,7 @@ while($i<$num){
   <tr>
     <td><?php echo $name ?></td>
     <td><?php echo $email ?></td>
+    <td><?php echo $msg ?></td>
     <td><a href= <?php echo $ppt ?> ><?php echo $pptname[5]; ?></a></td>
   </tr>
 
