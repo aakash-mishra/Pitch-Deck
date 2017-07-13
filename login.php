@@ -34,6 +34,8 @@ if(isset($_POST['submit'])){
     $sql = "Insert into Logs VALUES('', '$date' , $adminid)";
     $result = mysqli_query($con,$sql);
     header("Location: http://www.3mindsdigital.com/pitchdeck/admin.php");
+    // header("Location: http://localhost/pitch-deck/admin.php");
+
   }
   else{
     $_SESSION["loggedin"] = "no";

@@ -20,6 +20,8 @@ if(isset($_SESSION["loggedin"])){
 }
 else{
   header("Location: http://www.3mindsdigital.com/pitchdeck/login.php");
+  // header("Location: http://localhost/pitch-deck/login.php");
+
 }
 
 

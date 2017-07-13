@@ -1,5 +1,4 @@
 <?php
-// echo "here";
 $con = mysqli_connect("wp-4thwheel.cc5ugz0t5ghl.us-west-2.rds.amazonaws.com", "admin", "Qwer!234" , "PitchDeck");
 // $con = mysqli_connect("localhost", "root", "" , "PitchDeck");
 
@@ -8,12 +7,24 @@ $uri = $_SERVER['REQUEST_URI'];
 $exploded = explode('/',$uri);
 $url = "http://$_SERVER[HTTP_HOST]/$exploded[1]/";
 if( isset( $_POST['submit'] ) ){
+
   $target_dir = "uploads/";
   $fullname = $_FILES["fileToUpload"]["name"];
   $newfullname = str_replace(' ','-',$fullname);
   $target_file = $target_dir . $newfullname;
+  $FileType = pathinfo($target_file,PATHINFO_EXTENSION);
+  if($FileType != "ppt" && $FileType != "pptx" && $FileType != "pdf"
+  && $FileType != "doc" && $FileType != "docx" && $FileType != "mp4") {
+    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    $uploadOk = 0;
+    $pass=0;
+}
+
+else{
+
   if(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"] , $target_file)){
     $ppt = $url . $target_file;
+    $uploadOk = 1;
   }
   else{
     $ppt = "";
@@ -34,6 +45,9 @@ if( isset( $_POST['submit'] ) ){
     $pass=0;
   }
 }
+
+}
+
 
  ?>
 <html lang="en">
@@ -245,14 +259,14 @@ if( isset( $_POST['submit'] ) ){
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <div class="row">
-                      <?php if(isset($pass) && $pass == 1) { ?>
+                      <?php if( (isset($pass) && $pass == 1 ) && (isset($uploadOk) && $uploadOk == 1) ) { ?>
                       <div class="alert alert-success">
                         <p>Congrats! Your pitch deck was successfully submitted.</p>
                       </div>
                       <?php } ?>
-                      <?php if(isset($pass) && $pass == 0) { ?>
+                      <?php if( (isset($pass) && $pass == 0) || (isset($uploadOk) && $uploadOk == 0) ) { ?>
                       <div class="alert alert-danger">
-                        <p>Oops! Something went wrong.</p>
+                        <p>Sorry, only ppt, pptx, pdf, doc, docx and mp4 file types are allowed.</p>
                       </div>
                       <?php } ?>
                     </div>
