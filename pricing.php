@@ -10,7 +10,9 @@
 </head>
 
 <body>
-<button class="btn btn-primary" onclick="history.go(-1);">Back </button>
+  <div>
+    <a href="index.php">Go to Home page </a>
+  </div>
   	<div class="pricing-container">
 		<div class="pricing-switcher">
 			<p class="fieldset">

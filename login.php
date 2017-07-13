@@ -47,7 +47,11 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
+  <div>
+    <a href="index.php">Go to Home page </a>
+  </div>
 <div class="login-page">
+
   <div class="form">
     <form class="register-form">
       <input type="text" placeholder="name"/>

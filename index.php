@@ -28,6 +28,7 @@ if( isset( $_POST['submit'] ) ){
   $res = mysqli_query($con, $sql);
   if($res){
     $pass = 1;
+    //Send grid email here
   }
   else {
     $pass=0;
@@ -280,9 +281,9 @@ if( isset( $_POST['submit'] ) ){
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="link">Company/Startup Website link</label>
-                                <input type="tel" name="link" class="form-control"
+                                <input type="url" name="link" class="form-control"
                                 placeholder="Company/Startup Website Link" id="link"
-                                required data-validation-required-message="Please enter your Company/Startup Link.">
+                                >
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -293,7 +294,7 @@ if( isset( $_POST['submit'] ) ){
                                 <textarea rows="5" class="form-control"
                                 placeholder="Message (Specific details, if any, about how you want us to design your deck)"
                                 id="message" name="message"
-                                required data-validation-required-message="Please enter a message."></textarea>
+                                ></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
