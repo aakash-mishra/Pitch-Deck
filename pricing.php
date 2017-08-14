@@ -15,7 +15,7 @@
 
 
   <meta charset="UTF-8">
-  <title>3 Minds Pricing</title>
+  <title>Power Point Design Service Pricing</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <meta name="viewport" content="width=device-width">
@@ -43,8 +43,8 @@
 						<header class="pricing-header">
 							<h2>Basic</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">30</span>
+								<span class="currency">Rs</span>
+								<span class="value">300</span>
 								<span class="duration">mo</span>
 							</div>
 						</header>
@@ -58,16 +58,16 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
 							<h2>Basic</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">320</span>
+								<span class="currency">Rs</span>
+								<span class="value">3000</span>
 								<span class="duration">yr</span>
 							</div>
 						</header>
@@ -81,9 +81,9 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 				</ul>
 			</li>
@@ -93,8 +93,8 @@
 						<header class="pricing-header">
 							<h2>Exclusive</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">60</span>
+								<span class="currency">Rs</span>
+								<span class="value">600</span>
 								<span class="duration">mo</span>
 							</div>
 						</header>
@@ -108,16 +108,16 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
 							<h2>Exclusive</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">630</span>
+								<span class="currency">Rs </span>
+								<span class="value">7000</span>
 								<span class="duration">yr</span>
 							</div>
 						</header>
@@ -131,9 +131,9 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 				</ul>
 			</li>
@@ -143,8 +143,8 @@
 						<header class="pricing-header">
 							<h2>Pro</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">90</span>
+								<span class="currency">Rs</span>
+								<span class="value">900</span>
 								<span class="duration">mo</span>
 							</div>
 						</header>
@@ -158,16 +158,16 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
 							<h2>Pro</h2>
 							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">950</span>
+								<span class="currency">Rs</span>
+								<span class="value">10,000</span>
 								<span class="duration">yr</span>
 							</div>
 						</header>
@@ -181,9 +181,9 @@
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
-						<footer class="pricing-footer">
+						<!-- <footer class="pricing-footer">
 							<a class="select" href="#">Sign Up</a>
-						</footer>
+						</footer> -->
 					</li>
 				</ul>
 			</li>

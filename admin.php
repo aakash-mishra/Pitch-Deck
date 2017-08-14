@@ -53,7 +53,7 @@ tr:nth-child(even) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>3 Minds Digital - Pitch Deck</title>
+    <title>Power Point Design Service Digital - Power Point</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

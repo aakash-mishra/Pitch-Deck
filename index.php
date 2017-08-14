@@ -64,15 +64,13 @@ else{
 
 </script>
 
-
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>3 Minds Digital - Pitch Deck</title>
+    <title>Power Point Design Service</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -107,7 +105,7 @@ else{
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">3 Minds Digital</a>
+                <a class="navbar-brand" href="./index.php">Power Point Design Service</a>
             </div>
 
 
@@ -116,20 +114,19 @@ else{
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li><li class="page-scroll" style="color:white !important">
-                      Need support?<br> Call us on: +917073973939
                     </li>
                     <li class="page-scroll">
                         <a href="./pricing.php">Pricing</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="./contact.php">Contact Us</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="./about.php">About Us</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Get Started!</a>
                     </li>
                 </ul>
             </div>
@@ -143,41 +140,17 @@ else{
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/logo.png" alt="">
                     <div class="intro-text">
-                        <h1 class="name">Pitch Deck Design Service</h1>
+                        <h1 class="name">Power Point Design Service</h1>
                         <hr class="star-light">
-                        <span class="skills">We know what a perfect investors pitch deck looks like. Upload your draft pitch presentation (e.g. your PowerPoint file). Our designers style it to perfection. Fixed price from €29 per premium design slide. Dedicated account manager and satisfaction guarantee included.</span>
+                        <span class="skills">We know what a perfect Power Point Presentation looks like. Upload your draft presentation. Our designers style it to perfection. Free of cost for the first 3 PPT Presentations. Dedicated account manager and satisfaction guarantee included.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <!-- <hr class="star-light"> -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>We are a design team focused on creating remarkable investors presentations for startups and entrepreneurs. Our team has turned hundreds of pitch presentations into stunning decks that investors love. Get started today by uploading your PowerPoint pitch deck.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>You dream, we create. We are the rungs of the ladder that take your ideas towards success.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#contact" class="btn btn-lg btn-outline">
-                      Get Started!
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -260,7 +233,7 @@ else{
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Upload your PPT</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -271,7 +244,7 @@ else{
                     <div class="row">
                       <?php if( (isset($pass) && $pass == 1 ) && (isset($uploadOk) && $uploadOk == 1) ) { ?>
                       <div class="alert alert-success">
-                        <p>Congrats! Your pitch deck was successfully submitted.</p>
+                        <p>Congrats! Your PPT was successfully submitted.</p>
                       </div>
                       <?php } ?>
                       <?php if( (isset($pass) && $pass == 0) || (isset($uploadOk) && $uploadOk == 0) ) { ?>
@@ -304,9 +277,9 @@ else{
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="link">Company/Startup Website link</label>
+                                <label for="link">Your Website url</label>
                                 <input type="url" name="link" class="form-control"
-                                placeholder="Company/Startup Website Link" id="link"
+                                placeholder="Your Website Link" id="link"
                                 >
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -323,7 +296,7 @@ else{
                             </div>
                         </div>
                         <br>
-                        <label>Upload your Pitch Deck / PPT</label>
+                        <label>Upload your PPT Presentation</label>
                         <div class="row control-group">
                           <div class="form-group col-xs-12 floating-label-form-group controls">
                             <input type="file" name="fileToUpload" required>
