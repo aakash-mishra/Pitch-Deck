@@ -2,7 +2,8 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="Power Point Design Service - About us - About our team - Design Team">
+<meta name="keywords" content="powerpoint, power point, design, about us, design service, powerpoint design service">
 <meta name="author" content="">
 
 <title>About us</title>
@@ -76,7 +77,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h1>Power Point Design Service - About Us</h1>
                     <!-- <hr class="star-light"> -->
                 </div>
             </div>
@@ -92,6 +93,10 @@
                       Get Started!
                     </a>
                 </div>
+				
+				<div class="col-lg-12 col-md-12 col-xs-12">
+				<img src="img/team.jpg" alt="Power Point Design Team">
+				</div>
             </div>
         </div>
     </section>

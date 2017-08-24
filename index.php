@@ -67,7 +67,8 @@ else{
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="We are a design team focused on creating remarkable Power Point presentations for startups, entrepreneurs, individuals, students, etc . Our team has turned hundreds of presentations into stunning decks that people love.">
+	<meta name="keywords" content="PowerPoint, Power Point, Design, Service, Start ups, Deck, Design Service">
     <meta name="author" content="">
 
     <title>Power Point Design Service</title>
@@ -145,7 +146,7 @@ else{
                     <div class="intro-text">
                         <h1 class="name">Power Point Design Service</h1>
                         <hr class="star-light">
-                        <span class="skills">We know what a perfect Power Point Presentation looks like. Upload your draft presentation. Our designers style it to perfection. Free of cost for the first 3 PPT Presentations. Dedicated account manager and satisfaction guarantee included.</span>
+                       <p> <span class="skills">We know what a perfect Power Point Presentation looks like. Upload your draft presentation. Our designers style it to perfection. Free of cost for the first 3 PPT Presentations. Dedicated account manager and satisfaction guarantee included.</span></p>
                     </div>
                 </div>
             </div>
@@ -246,7 +247,7 @@ else{
                     <div class="row">
                       <?php if( (isset($pass) && $pass == 1 ) && (isset($uploadOk) && $uploadOk == 1) ) { ?>
                       <div class="alert alert-success">
-                        <p>Congrats! Your PPT was successfully submitted.</p>
+                        <p>Congrats! Your Power Point Presentation was successfully submitted.</p>
                       </div>
                       <?php } ?>
                       <?php if( (isset($pass) && $pass == 0) || (isset($uploadOk) && $uploadOk == 0) ) { ?>
@@ -388,7 +389,7 @@ else{
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="cabin">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -425,7 +426,7 @@ else{
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="cake">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -462,7 +463,7 @@ else{
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="circus">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -499,7 +500,7 @@ else{
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="game">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -536,7 +537,7 @@ else{
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="safe">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
