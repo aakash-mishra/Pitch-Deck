@@ -146,7 +146,7 @@ else{
                     <div class="intro-text">
                         <h1 class="name">Power Point Design Service</h1>
                         <hr class="star-light">
-                       <p> <span class="skills">We know what a perfect Power Point Presentation looks like. Upload your draft presentation. Our designers style it to perfection. Free of cost for the first 3 PPT Presentations. Dedicated account manager and satisfaction guarantee included.</span></p>
+                        <span class="skills">We know what a perfect Power Point Presentation looks like. Upload your draft presentation. Our designers style it to perfection. Free of cost for the first 3 PPT Presentations. Dedicated account manager and satisfaction guarantee included.</span>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@ else{
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="https://dilwalokideal.000webhostapp.com/" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -176,7 +176,7 @@ else{
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="https://mobigo.000webhostapp.com/index1.html" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
